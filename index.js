@@ -16,7 +16,7 @@ app.use(express.json());
 // Routes
 app.use('/api/orders', orderRoutes); // Use the orders route
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 5000;
 const MONGODB_URL = process.env.MONGODB_URL;
 
 mongoose
