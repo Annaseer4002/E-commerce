@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -23,5 +25,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annaseer4002/E-commerce.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Annaseer4002/E-commerce/issues"
+  },
+  "homepage": "https://github.com/Annaseer4002/E-commerce#readme"
 }
